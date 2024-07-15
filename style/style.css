@@ -76,6 +76,7 @@ body{font-family: "Work Sans", sans-serif;
                                     .banner-image{
                                         width: 100%;
                                     }
+
 .first-section-container{display: flex;}
 .first-section-container-img{display: grid; grid-template-columns: repeat(2,1fr); gap: 24px; margin-top: 120px; border-radius: 8px;}
 main{max-width: 1440px; margin: 0 auto;}
@@ -89,10 +90,34 @@ main{max-width: 1440px; margin: 0 auto;}
                     font-size: 16px;
                     font-weight: 400;}
 
+.second-section-container{max-width: 1440px; display: flex; gap: 146px;}
+.second-section-content{max-width: 586px; height: 982px; margin-top: 169px;}
+
+.second-section-content h3{color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;}
+.second-section-content p{color: rgb(114, 114, 114);
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400; margin-top: 10px;}
+.second-section-content h4{color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;}
+    .second-section-box{padding: 30px 42px 30px 30px; border-radius: 8px; box-shadow: 0 4px 8px; margin-bottom: 20px; height: 110px; display: flex; flex-direction: column; justify-content: center;}
+    
+    .second-section-img{max-width: 708px; margin-top: 130px;}
+    .second-section-img img{width: 100%;}
+    #second-section-features{border-left: 5px solid #FF900E;
+                               padding-left: 20px;}
+.second-section-experience{margin-left: -100px; margin-top: -100px;}                               
+
+
 .third-section-container h3{color: rgb(19, 19, 19);
     font-family: Work Sans;
     font-size: 45px;
-    font-weight: 700}
+    font-weight: 700;margin-top: 130px;}
 .third-section-container p{color: rgb(114, 114, 114);
     font-family: Work Sans;
     font-size: 16px;
@@ -125,13 +150,22 @@ main{max-width: 1440px; margin: 0 auto;}
         .forth-section-img{filter: grayscale(100%);
         display: grid; grid-template-columns: repeat(5,1fr);
     gap: 17px;} 
-
+ .footer{max-width: 1440px; height: 100px; background-color: rgb(255, 244, 231); margin: 0 auto; margin-top: 130px;}
+ .footer{color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400; text-align: center; padding-top: 39px;}
 @media screen and (max-width:576px) {
                     .first-section-container{flex-direction: column;}
                     .navbar{flex-direction: column;}
                     .first-section-container-img{display:grid; grid-template-columns: repeat(1,1fr); margin-left: 75px;}
                     .third-section-box{display: grid; grid-template-columns: repeat(2,1fr); gap: 10px;}
                     .forth-section-img{grid-template-columns: repeat(2,1fr);}
+                    .second-section-container{flex-direction: column; gap: 20px;}
+                    .second-section-content{margin-top: 20px;}
+                    .second-section-img{margin-top: 20px;} 
+                    .second-section-img img{margin-top: 20px;}
+                    .second-section-experience{margin: 0;}
 
 
                     
